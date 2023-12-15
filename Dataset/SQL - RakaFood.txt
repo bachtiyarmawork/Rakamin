@@ -218,8 +218,8 @@ CREATE TABLE rakamin_order(
   id_merchant VARCHAR(100),
   tanggal_pembelian DATE,
   kuantitas INT,	
-  harga	DOUBLE,
-  PPN DOUBLE,	 
+  harga	FLOAT,
+  PPN FLOAT,	 
   bayar_cash BOOL,	
   metode_bayar VARCHAR(50)
 );
